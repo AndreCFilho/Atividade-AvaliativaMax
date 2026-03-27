@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?><mxfile host="app.diagrams.net">
+  <diagram name="UC02 - Consultar Produto">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Inserir dados" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Buscar produto" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Produto encontrado?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Exibir / Não encontrado" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC03 - Verificar Estoque">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Consultar estoque" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Tem estoque?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Exibir / Sem estoque" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC04 - Cadastrar Cliente">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Informar dados" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Validar dados" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Dados válidos?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Salvar / Erro" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC05 - Identificar Cliente">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Informar CPF" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Buscar cliente" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Encontrado?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Exibir / Não encontrado" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC06 - Emitir Comprovante">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Reunir dados" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Gerar comprovante" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Falha?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Disponibilizar / Erro" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC07 - Venda a Prazo">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Selecionar venda" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Cliente cadastrado?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Definir vencimento" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Registrar venda" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC08 - Contas a Receber">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Criar lançamento" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Definir valor" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Erro?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Salvar / Erro" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC09 - Autorizar Venda">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Analisar receita" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Validar dados" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Autorizar?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Aprovado / Negado" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <diagram name="UC10 - Atualizar Estoque">
+    <mxGraphModel dx="800" dy="600" grid="1" gridSize="10">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+    
+        <mxCell id="2" value="Início" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="40" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+    
+        <mxCell id="3" value="Subtrair quantidade" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="4" value="Atualizar estoque" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="5" value="Erro?" style="rhombus;" vertex="1" parent="1">
+          <mxGeometry x="540" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="6" value="Salvar / Erro" style="rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="100" width="180" height="40" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="7" value="Fim" style="ellipse;" vertex="1" parent="1">
+          <mxGeometry x="940" y="100" width="40" height="40" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
